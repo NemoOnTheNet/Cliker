@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Mining mole</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <section class="clickerPlace">
-
+      <header>
+        <div class="elipse">
+          <img src="./Assets/LogoCTT.png" alt="logo" />
+        </div>
+        <h1>Mining mole</h1>
+      </header>
+      <button class="help">Help</button>
     </section>
-    <section class="shopPlace">
-
+    <section class="shopPlaceAndStats">
+      <section class="gold">
+        <h2>Gold : <span class="nbGold">0</span></h2>
+      </section>
+      <section class="shop">
+        <h2>Shop</h2>
+        <section class="shopListItem">
+          <div class="firstPickaxe">
+            <img
+              src="./Assets/shopIcons/icons8-mining-pickaxe-48.png"
+              alt="wooden pickaxe" />
+            <p>price : <span class="priceFirstPickaxe">0</span></p>
+          </div>
+        </section>
+      </section>
+      <section class="stats">
+        <p>total clics</p>
+        <p>automatique clics</p>
+        <p>or total</p>
+        <p>or dépensé</p>
+      </section>
     </section>
-</body>
-
+  </body>
 </html>

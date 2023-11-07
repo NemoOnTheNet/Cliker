@@ -1,29 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
 
 :root {
-    /*dark grey*/
-    --mainColor: #384454;
-    /*light grey*/
-    --secondaryColor: #D4D3DC;
-    /*GOLD */
-    --tertiaryColor: #E1A624;
-    /*light blue*/
-    --MenuBGColor: #317AC1;
-    /* light brown */
-    --lightBrown: #AD956B;
+  /*dark grey*/
+  --mainColor: #384454;
+  /*light grey*/
+  --secondaryColor: #d4d3dc;
+  /*GOLD */
+  --tertiaryColor: #e1a624;
+  /*light blue*/
+  --MenuBGColor: #317ac1;
+  /* light brown */
+  --lightBrown: #ad956b;
 }
 
 * {
-    font-family: 'Lemon', cursive;
-    font-size: 16px;
-    margin: 0px;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
+  font-family: "Lemon", cursive;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 body {
@@ -36,9 +36,33 @@ body {
   width: 60%;
   background: no-repeat url("./Assets/BackgroundDesktop.png");
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.shopPlaceAndStats{
-    background-color: var(--mainColor);
-    width: 40%;
+.shopPlaceAndStats {
+  background-color: var(--mainColor);
+  width: 40%;
+}
+
+.pickaxeAndRock{
+    height: 70%;
+    display: flex;
+}
+.pickaxeRoc{
+    height: 50%;
+}
+@media screen and (max-width: 600px) {
+  .clickerPlace {
+    width: 100%;
+    background: no-repeat url("./Assets/BackgroundTwo.png");
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .shopPlaceAndStats{
+    display: none;
+  }
 }

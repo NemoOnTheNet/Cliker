@@ -1,10 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    /*dark grey*/
+    --mainColor: #384454;
+    /*light grey*/
+    --secondaryColor: #D4D3DC;
+    /*GOLD */
+    --tertiaryColor: #E1A624;
+    /*light blue*/
+    --MenuBGColor: #317AC1;
+    /* light brown */
+    --lightBrown: #AD956B;
+}
+
+* {
+    font-family: 'Lemon', cursive;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
 body {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
 }
 
 .clickerPlace {
-    background: url('./Assets/BackgroundDesktop.png');
-    width: 70%;
+  width: 60%;
+  background: no-repeat url("./Assets/BackgroundDesktop.png");
+  background-color: black;
+}
+
+.shopPlaceAndStats{
+    background-color: var(--mainColor);
+    width: 40%;
 }
